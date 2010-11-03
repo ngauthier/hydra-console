@@ -1,0 +1,15 @@
+= Hydra Console
+
+Run test files repeatedly without rebooting your environment
+
+== Usage
+
+hydra-console file1 [file2, file3, ...]
+
+Currently it always runs on four processors. I will add a config flag when
+I rewrite the binary with a real option parser.
+
+== More Info
+
+http://github.com/ngauthier/hydra
+
